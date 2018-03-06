@@ -1,0 +1,16 @@
+.container {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link:nth-child(odd) {
+  padding-right: 15px;
+}
