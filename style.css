@@ -58,3 +58,12 @@ header {
   align-items: center;
   margin: 10px 0;
 }
+
+footer {
+  padding: 10px 0;
+}
+
+.middle {
+  flex-grow: 1;
+  text-align: center;
+}
