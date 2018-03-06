@@ -2,6 +2,9 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+}
+
+header {
   justify-content: flex-end;
 }
 
@@ -19,4 +22,14 @@
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
+}
+
+.gallery {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  padding: 15px;
 }
