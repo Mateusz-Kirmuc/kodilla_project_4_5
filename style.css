@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .flex-container {
   display: -webkit-flex;
   display: -ms-flex;
@@ -32,4 +37,24 @@ header {
 
 .gallery img {
   padding: 15px;
+}
+
+.cards {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin: 10px 0;
 }
