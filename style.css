@@ -1,4 +1,4 @@
-.container {
+.flex-container {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -13,4 +13,10 @@
 
 .link:nth-child(odd) {
   padding-right: 15px;
+}
+
+.hero {
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
 }
